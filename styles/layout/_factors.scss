@@ -1,0 +1,56 @@
+.factors {
+    overflow: hidden;
+    &__img {
+      
+        width: 400px;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+        
+       
+        img {
+          
+            width: 99%;
+            height: 400px;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+
+        .factors__txt {
+            max-width: 300px;
+            position: absolute;
+            color: $white_color;
+            top: 90px;
+            left: 30px;
+            h5{
+                font-size: 13px;
+                font-weight: 100px;
+                color: $light_gray_color2;
+            }
+            h1{
+                font-size: 30px;
+                word-spacing: 2px;
+                font-weight: 600px;
+                line-height: 40px;
+            }
+            button{
+                background-color: $green_color;
+                border: none;
+                padding: 7px;
+                width: 100px;
+                font-weight: 600;
+                color: $white_color;
+                &:hover{
+                    background-color: rgb(88, 122, 88);
+                }
+            }
+        }
+    }
+}

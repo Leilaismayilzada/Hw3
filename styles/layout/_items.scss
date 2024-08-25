@@ -1,0 +1,39 @@
+.items{
+    display: flex;
+   flex-wrap: wrap;
+   padding: 10px;
+   i{
+    font-size: 30px ;
+    margin: 10px 0;
+    color: $green_color;
+   
+   }
+   h1{
+    font-size: 19px;
+    font-weight: 700;
+   }
+   p{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 200;
+   }
+&__chair{
+    display: flex;
+    gap: 18px;
+}
+&__light{
+    display: flex;gap: 18px;
+}
+&__watch{
+    display: flex;gap: 18px;
+}
+&__tv{
+    display: flex;gap: 18px;
+}
+&__phone{
+    display: flex;gap: 18px;
+}
+&__wash{gap: 18px;
+    display: flex;
+}
+}

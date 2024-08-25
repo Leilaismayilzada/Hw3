@@ -1,0 +1,119 @@
+.beta{
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    &__head{
+        max-width: 450px;
+        text-align: center;
+        margin-top: 10px;
+        margin: 0 auto;
+        h4{
+font-weight: 300;
+font-size: 16px;
+color: rgb(194, 194, 194);
+        }
+        h2{
+            font-weight: 600;
+            font-size: 35px;
+        }
+        p{
+            font-size: 13px;
+            text-align: center;
+            font-weight: 400;
+            color: gray;
+
+        }
+    }
+    &__imgs{
+        display: flex;
+      width: 30px;
+        flex-basis: 29%;
+        flex-wrap: wrap;
+overflow: hidden;
+        position: relative;
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.4s ease-in-out;
+            box-shadow: 0 0 10px black;
+    
+        }
+img{
+    width: 300px;
+    height: 250px;
+    transition: 0.4s ease-in-out;
+   
+}
+.beta__txt_head{
+position: absolute;
+background-color: white;
+max-width: 60px;
+text-align: center;
+left: 15px;
+top: 15px;
+font-size: 20px;
+
+
+}
+.beta__txt__mid{
+    
+    background-color: $green_color;
+    padding: 10px;
+    height: 37px;
+    font-weight: 600;
+    color: white;
+bottom: 20px;
+    margin: 0 auto;
+   
+}
+.beta__txt__main{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 207px;
+
+    p{
+font-weight: 500;
+margin-top: 10px;
+font-size: 24px;
+    }
+    span{
+        text-align: center;
+        font-size: 16px;
+        color: gray;
+        margin-bottom: 20px;
+       
+    }
+    a{
+        outline: none;
+        text-decoration: none;
+        color: $green_color;
+        font-weight: 700;
+        font-size: 16px;
+        
+    }
+    ul{
+        display: flex;
+        gap: 10px;
+        justify-content: start;
+        li{
+            img{
+                border-radius: 100%;
+                width: 19px;
+                height: 19px;
+                transition: 0.6s ease-in-out;
+                
+            }
+            i{
+                font-size: 20px;
+                color: gray;
+            }
+            
+        }
+       
+    }
+
+}
+    }
+}
+.betas{
+    display: flex;
+    gap: 10px;
+}

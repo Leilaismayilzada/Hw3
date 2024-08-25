@@ -1,0 +1,27 @@
+.delivery{
+    display: flex;
+    margin-top: 30px;
+    ul{display: flex;
+        flex-direction: row;
+        gap: 5px;
+   li{
+    display: flex;
+    .txt{
+        max-width: 300px;
+        margin-left: 20px;
+        p{
+            font-weight: 700;
+            font-size: 13px;
+        }
+        span{
+            font-weight: 300;
+            font-size: 13px;
+        }
+    }
+    img{
+        width: 60px;
+        height: 60px;
+    }
+   }
+    }
+}

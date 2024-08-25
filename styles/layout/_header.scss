@@ -1,0 +1,105 @@
+#header {
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        padding: 20px 20px;
+        background-color: $light_gray_color2;
+        font-family: $text_font2;
+
+
+
+        .left {
+            margin: 10px auto;
+
+            img {
+                @extend %Main-img;
+            }
+        }
+
+        .headmid {
+            width: 100%;
+            @include Flexible(flex-start, flex-start, row, wrap, 0px);
+
+            &__input1 {
+                input {
+                    width: 350px;
+                    padding: 10px;
+                    border: 0.5px solid $gray_color;
+                    outline: none;
+                    
+                }
+            }
+
+            &__input2 {
+                select {
+                    width: 200px;
+                    padding: 13.6px;
+                    border: 0.5px solid $gray_color;
+                    color: $gray_color;
+                    font-size: 13px;
+                    outline: none;
+                }
+
+            }
+
+            &__icons {
+                i {
+                    padding: 14.6px;
+                    color: white;
+                    background-color: $green_color ;
+                }
+            }
+        }
+
+        .right {
+            @include Flexible(flex-start, center, row, wrap, 10px);
+            font-family: $text_font2;
+
+            &__icons {
+                i {
+                    font-size: 40px;
+                    color: $light_gray_color;
+
+                }
+            }
+
+            &__side {
+
+                span {
+                    font-weight: 900;
+                    color: $green_color;
+                    font-size: 14px;
+                }
+
+                p {
+                    color: $gray_color;
+                    font-weight: 200;
+                    font-size: 12px;
+                }
+
+            }
+
+            &__basket {
+                i {
+
+                    font-size: 40px;
+                    color: $light_gray_color;
+                }
+            }
+
+            &__price {
+                p {
+                    margin: 0 auto;
+                    color: $green_color;
+                    font-weight: 700;
+                }
+
+                span {
+                    font-weight: 200;
+                    color: $gray_color;
+                }
+
+            }
+        }
+    }
+}

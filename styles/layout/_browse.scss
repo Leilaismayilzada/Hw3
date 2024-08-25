@@ -1,0 +1,78 @@
+.browse{
+    @include Flexible(flex-start,baseline,row,wrap,10px);
+   
+    flex-wrap: wrap;
+    &__left{
+        display: flex;
+        background-color: $green_color;
+        width: 227px;
+        padding: 10px 15px;
+        height: 50px;
+        color: $white_color;
+        align-items: center;
+        gap: 15px;
+    }
+    &__mid{
+        text-align: start;
+        width: 506px;
+        height: 50px;
+       
+       ul{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 25px;
+        margin: 10px auto;
+        li{
+            font-weight: 600;
+            i{
+                color: $gray_color;
+                font-size: 8px;
+            }
+            &:hover{
+                transition: 0.4s ease-in-out;
+                color: $green_color;
+            }
+           
+        }
+       }
+    }
+    &__right{
+        display: flex;
+        width: 400px;
+        padding: 10px 1px ;
+        gap: 20px;
+        &__log{
+            font-weight: 700;
+            letter-spacing: 1px;
+            &:hover{
+                color: $gray_color;
+            }
+        }
+        &__wish{
+            i{
+                font-size: 20px;
+            }
+            span{
+                font-size: 13px;
+                font-weight: 800;
+                letter-spacing: 1px;
+            }
+            &:hover{
+                color: $gray_color;
+            }
+        }
+        &__compare{
+            i{
+                font-size: 20px;
+            }
+            span{
+                font-weight: 600;
+            }
+            &:hover{
+                color: $gray_color;
+            }
+        }
+       
+    }
+}

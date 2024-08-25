@@ -1,0 +1,97 @@
+.virtual {
+    overflow: hidden;
+   &__img{
+    position: relative;
+   
+    .virtual__txt{
+        width: 300px;
+        position: absolute;
+        top: 90px;
+        left: 40px;
+        color: $white_color;
+        flex-wrap: wrap;
+        
+        h2{
+         font-size: 15px;
+         font-weight: 400;
+         color: rgb(176, 176, 176);
+        }
+        h1{
+            font-weight: 700;
+            font-size: 24px;
+        }
+        button{
+            width: 145px;
+            height: 45px;
+            color: $white_color;
+            background-color: transparent;
+            border: 3px solid $gray_color;
+            transition: 0.6s ease-in-out;
+            &:hover{
+                border-color: $white_color;
+
+            }
+        }
+        
+    }img{
+        width: 423px;
+        height: 423px;
+        transition: 0.4s ease-in-out;
+
+        &:hover
+    {
+        transform: scale(1.1);
+    }
+    }
+    
+   }
+  
+
+    
+    }
+
+.delightful{
+    margin-top: 20px;
+    overflow: hidden;
+   &__img{
+    position: relative;
+    .delightful__txt{
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        color: $white_color;
+        flex-wrap: wrap;
+        width: 200px;
+        h2{
+            font-size: 13px;
+         font-weight: 250;
+         color: rgb(176, 176, 176);
+        }
+        h1{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 27px;
+        }
+        button{
+            background-color: $green_color;
+            width: 145px;
+            height: 45px;
+            transition: 0.6s ease-in-out;
+            color: $white_color;
+            &:hover{
+                background-color: rgb(72, 106, 78);
+            }
+
+        }
+    }
+    img{
+        width: 421px;
+        height: 423px;
+        transition: 0.4s ease-in-out;
+
+        &:hover
+    {
+        transform: scale(1.1);
+    }
+}}}
+

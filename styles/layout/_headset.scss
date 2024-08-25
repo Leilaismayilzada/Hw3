@@ -1,0 +1,208 @@
+// .headset{
+//     margin-left: 20px;
+//     &__img{
+//        position: relative;
+//         img{object-fit: cover;
+//                 width: 770px;
+//                 height: 520px;
+
+//         }
+//         .headset__txt{
+// position: absolute;
+// top: 150px;
+// left: 150px;
+// color: $white_color;
+// width: 100%;
+// text-align: center;
+// margin: 0 auto;
+// h2{
+//     font-weight: 400;
+//     font-size: 15px;
+//     color: rgb(207, 198, 198);
+//     letter-spacing: 2px;
+// }
+// h1{
+//     font-weight: 600;
+//     font-size: 38px;
+//     letter-spacing: 1px;
+// }
+// &__button{
+// display: flex;
+// text-align: center;
+// align-items: center;
+// justify-content: center;
+// gap: 15px;
+// .view{
+//     color: $white_color;
+//     padding: 10px 0;
+//     width: 120px;
+//     background-color: $green_color;
+//     border: none;
+//     font-size: 15px;
+//     font-weight: 600;
+//     &:hover{
+//         background-color: rgb(86, 117, 86);
+//     }
+
+// }
+// .shop{
+//     color: $white_color;
+//     padding: 7px 0;
+//     width: 120px;
+//     background-color: transparent;
+//     border: 2px solid $light_gray_color2;
+//     font-size: 15px;
+//     font-weight: 600;
+//     transition: 0.4s ease-in-out;
+//     &:hover{
+//        border-color:$white_color;
+//     }
+// }
+
+
+// }
+
+//         }
+//      }
+// }
+// .servants{
+//     background-color: yellow;
+//     height: 300px;
+//     width: 1900px; 
+//     &__img {
+//         margin-top: 20px;
+//         margin-left: 20px;
+//         overflow: hidden; 
+//         position: relative;
+
+//         img {
+//             width: 100%;
+//             height: auto; 
+//             transition: transform 0.4s ease-in-out; 
+
+//             &:hover {
+//                 transform: scale(1.1); 
+//             }
+//         }
+//         .servants__txt{
+//             position: absolute;
+//          left: 20px;
+//             top: 20px;
+//             color: $white_color;
+//         }
+//     }
+// }
+
+
+
+#pics {
+    .pics__right {
+        &__headset {
+            text-align: center;
+            height: 600px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h2 {
+
+                font-weight: 400;
+                font-size: 15px;
+                color: rgb(207, 198, 198);
+                letter-spacing: 2px;
+            }
+
+            h1 {
+               max-width: 400px;
+                font-weight: 600;
+                font-size: 38px;
+                color: $white_color;
+            }
+
+            .headset_buttons {
+
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+
+                .view {
+                    color: $white_color;
+                    padding: 10px 0;
+                    width: 120px;
+                    background-color: $green_color;
+                    border: none;
+                    font-size: 15px;
+                    font-weight: 600;
+
+                    &:hover {
+                        background-color: rgb(86, 117, 86);
+                    }
+
+                }
+
+                .shop {
+                    color: $white_color;
+                    padding: 7px 0;
+                    width: 120px;
+                    background-color: transparent;
+                    border: 2px solid $light_gray_color2;
+                    font-size: 15px;
+                    font-weight: 600;
+                    transition: 0.4s ease-in-out;
+
+                    &:hover {
+                        border-color: $white_color;
+                    }
+                }
+            }
+        }
+
+        &__servants {
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: aliceblue;
+            padding: 70px 20px;
+            text-align: left;
+            transition: 0.4s ease-in-out;
+          background-position: center;
+          
+
+          
+
+
+            h2 {
+                font-size: 14px;
+                font-weight: 100;
+                color: $light_gray_color2;
+                letter-spacing: 1px;
+            }
+            h1{
+                font-size: 32px;
+                font-weight: 650;
+                color: $white_color;
+            }
+            button{
+                background-color: transparent;
+                border: 2px solid $light_gray_color2;
+                padding: 5px;
+                width: 130px;
+                color: $white_color;
+                transition: 0.4s ease-in-out;
+                &:hover{
+                          border-color: $white_color;
+                   }
+            }
+        }
+    }
+}
+
+
+
+
+
